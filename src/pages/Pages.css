@@ -1,0 +1,315 @@
+.cardUI{
+  
+  
+
+  
+ 
+  size: 80rem;
+  
+  background-color: yellow;
+  
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-color: black;
+  width: 18rem;
+  position: absolute;
+  flex-wrap: wrap;
+  overflow: hidden;
+  display: flex ;
+}
+/* Forgot Pass */
+.HL{
+  color:  cornflowerblue;
+  margin-bottom: 1rem;
+
+}
+.HL:hover{
+  opacity: 0.6;
+  color: #f4511e;
+}
+.LHeading{
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+ text-align: center;
+}
+
+.GB{
+    justify-content: center;
+    text-align: center;
+    flex: auto;
+    text-transform: uppercase;
+    margin-right: 30px;
+    width:7rem;
+    margin-top: 10px;
+    background-color: #065143;
+    margin-left: 1rem;
+    padding: 5px 5px 5px 5px;
+    color: #fca311;
+    border-radius: 5px ;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.GB1{
+  justify-content: center;
+  text-align: center;
+  flex: auto;
+  text-transform: uppercase;
+  margin-right: 30px;
+  width:7rem;
+  margin-top: 10px;
+  background-color: #fca311;
+  margin-left: 1rem;
+  padding: 5px 5px 5px 5px;
+  color: #065143;
+  border-radius: 5px ;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.GB:hover{
+  opacity: 2;
+    right: 0;
+  }
+
+.GB1:hover{
+    opacity: 2;
+      right: 0;
+}
+
+
+.GR{
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    text-align: center;
+    width:7rem;
+    flex: auto;
+    text-transform: uppercase;
+    margin-right:0px;
+    background-color: #f4511e;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    border-radius: 5px ;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.GR:hover{
+  opacity: 2;
+    right: 0;
+  }
+
+
+.img1{
+ size: 50rem;
+ background-size: contain;
+ border: 1px solid #065143;
+ max-width:100%;
+ height:15rem;
+ 
+}
+.title1{
+    color:#065143;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.email{
+    color:#fca311;
+    margin-left: 0px;
+    padding-top: 1rem;
+}
+.CardDesc{
+    color: #065143;
+    padding-top: 1rem;
+
+}
+
+/* Register Button with hover */
+.LoginUI{
+  flex: 4;
+  justify-content: center;
+  margin: 10rem 20rem 20rem 35rem;
+  width: 45%;
+  position:absolute;
+  top: 30%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  
+  
+
+}
+.ForgotP{
+  color:#fc5c65;
+  margin: 1rem 0rem 1rem;
+
+}
+.LoginT{
+  float: left;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  color: #f4511e;
+  font-style: inherit;
+  font-weight: bold;
+  
+  top: 20%;
+  left: 10%;
+  margin-left: 13rem;
+  padding-bottom: 15rem;
+  transform: translate(-50%, -50%);
+  
+}
+.container{
+  position: relative;
+  color:black;
+  font-weight: bolder;
+}
+.IHQ{
+  width: 95rem;
+  height: 46rem;
+  margin-top: 0rem;
+  margin-left: -12.8rem;
+  
+}
+
+.ForgotP:hover{
+  color:#222;
+}
+.button1{
+    background-color:#fc5c65;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 2px;
+    border-radius: 5px ;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    width:19%;
+    height: auto;
+  }
+  .button1:hover {
+    opacity: 2;
+    right: 0;
+  }
+  .button2{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 2px;
+    border-radius: 5px ;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    width:18%;
+    height: auto;
+  }
+  .button2:hover {
+    opacity: 2;
+    right: 0;
+
+  }
+  .SB{
+    margin-left: -67rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .LogB{
+    background-color: #060b26;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 3px 2px;
+    border-radius: 5px ;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    width:10%;
+    height: auto;
+  }
+  .LogB:hover {
+    opacity: 2;
+    right: 0;
+    background-color: #fca311;
+    color: black;
+    font-weight: bold;
+  }
+  .btn{
+      width:18%;
+      opacity: 0.8;
+      height:auto;
+      padding: 6px 12px;
+      border:none;
+  }
+  .btn:hover{
+    opacity: 1;
+    right: 0;
+    color:rgb(62, 179, 62);
+
+  }
+  /* Chart Essentials */
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .search1 {
+    margin-top: 10px;
+    margin-left: 450px;
+    opacity: 0.8;
+    background-color: #fca311;
+    transition: 0.1s;
+
+    width:60%;
+    height: 3rem;
+    color: brown;
+    border-style: solid;    
+  }
+  .search1:hover{
+    opacity:1;
+    color:black;
+    background-color: white;
+  }
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
